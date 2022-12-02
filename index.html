@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Tanjiro</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg tj sticky-top ms-auto" width="auto">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#inicio">Tanjiro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#nuestrasSeries">Nuestras Series</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#conocenos">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#escribenos">Escríbenos</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <a role="button" class="btn btn-outline-success" href="#busca" type="submit">Buscar</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio"  >
+      <div class="container text-center" width="auto">
+        <div class="row inicio">
+          <div class="col-sm">
+            <img class="img-inicio img-fluid ms-auto" src="https://cdn.pixabay.com/photo/2015/01/11/07/07/moe-595960_960_720.png">
+          </div>
+          <div class="col-sm tjtx ms-auto">
+            <h1>Te damos la bienvenida a <span class="tj-brand">Tanjiro</span></h1>
+            <br>
+            <p>Aquí encontrarás todas tus series y podrás guardarlas en tus listas totalmente personalizables.<br>Te las mandaremos a tu correo electrónico para que no las pierdas. Las tendrás en un formato interactivo en el que puedes ir marcando cuándo has visto cada serie y cómo te ha parecido.<br>Y si te quedas sin series, te ofrecemos nuestro buscador de series por afinidad que te recomendará series en función de tus gustos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="nuestrasSeries"  >
+      <div class="container text-center" width="auto">
+        <div class="row row-series">
+          <div class="col-sm">
+            <div id="carouselAbsoluteCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="3" class="active" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="6" class="active" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                <button type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+              </div>
+              <div class="carousel-inner ms-auto">
+                <div class="carousel-item active">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/Fw-np04xJ2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 1</h5>
+                    <p>Blaze</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/4MZc4-rZDlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 2</h5>
+                    <p>Duo</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/9temXEGRwTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 3</h5>
+                    <p>Avenger</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/ma2jguw4XXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 4</h5>
+                    <p>Exception</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/k4ruYQN-RlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 5</h5>
+                    <p>Level Up</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/1HUcfXvd8HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 6</h5>
+                    <p>Survive</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/jRb7DmMl6CU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 7</h5>
+                    <p>Silver-Blonde, Yellow Topaz</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/Tx1TpEu6voo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 8</h5>
+                    <p>Selection</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/PlzcC3i70a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 9</h5>
+                    <p>Rebels</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/xmTrKoxL1W4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 10</h5>
+                    <p>Reign Conference</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/xohCquUDNtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 11</h5>
+                    <p>Reign Conference</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.youtube.com/embed/rHR-pOh-FFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 12</h5>
+                    <p>Absolute Duo</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAbsoluteCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm tjtx ini" min-width="360" max-width="50%" height="auto">
+            <h5p><strong>Absolute Duo</strong></h5p><br>
+            <br>
+            <p>(アブソリュート·デュオ Abusoryūto Dyuo?) es una serie de novelas ligeras japonesas escritas por <strong>Takumi Hiiragiboshi</strong> con ilustraciones por <strong>Yu Asaba</strong>.<br>
+            Tōru Kokonoe es un joven que decide, después de perder a alguien valioso en un aterrador incidente, ser más fuerte. Se inscribe en una escuela especial donde las personas manifiestan sus almas como armas llamadas Blaze. Las personas con esta inusual habilidad son denominados "Exceed" y este fenómeno se da en 1 de cada 1000 personas. Tōru es capaz de producir su propio Blaze, pero por alguna razón se manifiesta como un escudo en lugar de un arma.</p>
+          </div>
+        </div>
+        <br>
+        <div class="row row-series">
+          <div class="col-sm">
+            <div id="carouselMagiCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="3" class="active" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="6" class="active" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                <button type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/xGS15C6fwTmt" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 1</h5>
+                    <p>Child of Destiny</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/n3C0oV1UJNwn" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 2</h5>
+                    <p>Sinbad the Sailor</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/id053gCF7Uow" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 3</h5>
+                    <p>Dungeon Baal</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/cgHyGHs7ESnc" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 4</h5>
+                    <p>First Sea</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/HUI3Oic80n3F" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 5</h5>
+                    <p>Qualities of a King</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/0pqtyNcDvFsf" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 6</h5>
+                    <p>Place You Belong</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/6527QTE6qHt6" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 7</h5>
+                    <p>Sinbad the Merchant</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/7RaV3gbBUXVI" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 8</h5>
+                    <p>Household Vessel</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/oCMd83cIcO58" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 9</h5>
+                    <p>Sasan, the Land of Purity</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/OxO06TE7MN1Y" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 10</h5>
+                    <p>The Power to Change the World</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/15aSTN82YK3h" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 11</h5>
+                    <p>Artemyra, the City in the Sky</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe min-width="360" max-width="50%" height="auto" src="https://www.yourupload.com/embed/O0246kVxtgjF" allowfullscreen="true" style="border: 0"></iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Capítulo 12</h5>
+                    <p>Djinn Equip vs Djinn Equip</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMagiCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm tjtx ini" min-width="360" max-width="50%" height="auto">
+            <h5p><strong>Magi: Sinbad no Bouken</strong></h5p><br>
+            <br>
+            <p>(マギ lit. Magi: El laberinto de magia?) es una serie de manga escrita e ilustrada por <strong></strong>Shinobu Ohtaka</strong>.<br>
+              Aladdin, un misterioso niño que lleva consigo una flauta con la que puede invocar a un djinn gigante llamado Ugo. Viaja tratando de descubrir quién es en realidad y para aprender acerca del mundo en el que vive. Un día, conoce a un joven mercader llamado Alibaba Saluja, que sueña con conquistar la misteriosa mazmorra de Qishan. Aladdin y Alibaba se prometen emprender una aventura juntos. Se hacen amigos y deciden capturar la mazmorra. Poco después, se encuentran con una esclava llamada Morgiana, que se une a su aventura.</p>
+          </div>
+        </div>
+      </div>
+      <br id="busca">
+      <br>
+      <br>
+      <div style="margin-left: 2%; padding: 0 1%;" id="tap" width="auto">
+        <a role="button" class="btn btn-primary btn-lg tap" href="https://monoschinos2.com/animes" target="_blank" style="margin-right: 1%;">A-Z</a>
+        <a role="button" class="btn btn-secondary btn-lg tap" href="https://animeflv.ac/animes/" target="_blank" style="margin: 0 1%;">Géneros</a>
+        <a role="button" class="btn btn-secondary btn-lg tap" href="https://s.to/serien" target="_blank" style="margin-left: 1%; margin-right: 0;">Idioma</a>
+      </div>
+    </section>
+    <section id="conocenos"  >
+      <div class="equipo" width="auto">
+        <h2>Nuestro Equipo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur. Vivamus sit dignissim sapien feugiat velit platea praesent consectetur. Elit sed ornare viverra vulputate. Dapibus pharetra enim cum duis ipsum tincidunt felis sollicitudin. In ornare lorem laoreet rutrum pretium lobortis ut.<br>
+        Et mattis consectetur sed nisi aliquet magnis semper lectus tellus. Sed ornare leo ac et aenean quis a. Sit morbi ut non tincidunt. Enim morbi mauris at nam turpis praesent nunc. Aliquam sapien pellentesque in lacus est ut elit. Donec et eu consectetur tortor natoque sapien sit parturient gravida. Viverra neque purus leo mattis pretium. Adipiscing laoreet sed in est cras. Volutpat cursus laoreet tellus consequat. Aliquet auctor sed semper diam quis gravida. Risus commodo senectus lacus vitae. Accumsan placerat vitae ut proin. Consectetur elementum sit nisi sit. Arcu eu neque pellentesque sagittis facilisis. Diam dis odio viverra tristique.<br>
+        Magnis tincidunt pellentesque id quis feugiat proin vulputate. Mattis egestas eget urna gravida accumsan facilisi arcu scelerisque porttitor. Enim dis risus nam ac dui. At morbi scelerisque neque ac in maecenas. Quam venenatis tellus viverra cursus vivamus gravida purus facilisis. Fringilla diam quis sollicitudin fringilla.<br>
+        Mus et sit aliquam accumsan fames elementum vestibulum ullamcorper gravida. Pellentesque tellus vel molestie semper egestas ut proin scelerisque. Mattis cras enim elit posuere at velit. Est amet libero faucibus vel ut auctor leo suspendisse odio. Egestas leo egestas purus suspendisse id.</p>
+      </div>
+      <br>
+      <div id="equipo" class="row equipo row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="tarjeta card h-100">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHlEov174xSiw/profile-displayphoto-shrink_800_800/0/1657225247275?e=1675296000&v=beta&t=zL1I8jXY6md_E_MdqU4X7_Hw2cNlX9lwD0OKvkqwh7U" class="card-img-top img-fluid" alt="Jorge Benítez">
+            <div class="card-body">
+              <h5 class="card-title">Jorge Benítez</h5>
+              <p class="card-text">Ayudo a las personas a resolver problemas, mejorar la productividad, vender productos / servicios, etc. De una forma, muchas veces, bella y a la velocidad de la luz (Es lo que tiene la comunicación visual y la tecnología).</p>
+            </div>
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/jorgebenitezlopez/" class="card-link" target="_blank"><i class="fa-brands fa-linkedin"></i> Jorge Benítez</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHtaVU1e4ZniQ/profile-displayphoto-shrink_800_800/0/1639511138012?e=1675296000&v=beta&t=Qa8wFR2H5vG-aAEFNNGKcOX0cXctiCId1FYeowm32lo" class="card-img-top img-fluid" alt="Rocío Cejudo Soronellas">
+            <div class="card-body">
+              <h5 class="card-title">Rocío Cejudo Soronellas</h5>
+              <p class="card-text">Como dirían los renacentistas, soy una persona multidisciplinar en los campos de front end developer, SEO y editorial. Pero gracias a ambas he podido aprender y ampliar mis conocimientos.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/rociocejudo/" class="card-link" target="_blank"><i class="fa-brands fa-linkedin"></i> Rocío Cejudo Soronellas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG1621GcQBd2g/profile-displayphoto-shrink_800_800/0/1650751244651?e=1675296000&v=beta&t=pSQroxo5FrUJxI2Gqq5iJxdFDQz3nlAiDX6uWRI-914" class="card-img-top img-fluid" alt="Pilar Limón">
+            <div class="card-body">
+              <h5 class="card-title">Pilar Limón</h5>
+              <p class="card-text">Responsable de promoción del talento femenino / Consultoría y coordinación de proyectos de igualdad y género en Intervención social / Formadora, presencial, virtual y on line</p>
+            </div>
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/pilar-lim%C3%B3n-b6135843/" class="card-link" target="_blank"><i class="fa-brands fa-linkedin"></i> Pilar Limón</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGmzWSjeMrNSw/profile-displayphoto-shrink_800_800/0/1658337510406?e=1675296000&v=beta&t=OnVSsFep0G3Nu84Qmd5rI8l2uM4LvL8i5NI5qtKdgqM" class="card-img-top img-fluid" alt="Teresa Ambroa de Frutos">
+            <div class="card-body">
+              <h5 class="card-title">Teresa Ambroa de Frutos</h5>
+              <p class="card-text">Responsable de la creación de nuestra maravillosa página y comunidad.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/teresaambroa/" class="card-link" target="_blank"><i class="fa-brands fa-linkedin"></i> Teresa Ambroa de Frutos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="escribenos"  >
+      <h2 class="escribenos"><i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"> </i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-regular animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i> <i class="fa-solid animate__animated animate__rotateIn fa-envelope animate__infinite	infinite"></i></h2>
+      <br>
+      <h2 class="escribenos">Escríbenos</h2>
+      <br>
+      <br>
+      <form class="row g-2">
+        <div class="row cuentanos">
+          <div class="col" style="padding-right: 2%;">
+            <label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput2" class="form-label">Tu Correo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nombre@ejemplo.com" aria-label="Email">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <div class="col-12">
+          <a role="button" type="send" class="btn btn-primary" href="https://cdn.pixabay.com/photo/2021/01/25/07/04/hearts-5947464_1280.png" target="_blank">Enviar</a>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="bloquefooter">
+      <ul class="socialmedia">
+        <li>
+          <a href="https://www.facebook.com/factoriaf5/" class="button1" target="_blank" title="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/factoriaf5" class="button1" target="_blank" title="Twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>     
+        <li>
+          <a href="https://www.linkedin.com/company/factor%C3%ADaf5/" class="button1" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/factoria_f5/" class="button1" target="_blank" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://app.slack.com/huddle/T049K3RCUE8/C049GKPU0G2" class="button1" target="_blank" title="Instagram">
+            <i class="fa-brands fa-slack"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <hr class="foot-copy">
+    <br>
+    <p class="foot-copy">Copyright © Tanjiro 2022</p>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
